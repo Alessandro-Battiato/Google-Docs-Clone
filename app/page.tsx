@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import AddDocumentBtn from "@/components/ui/AddDocumentBtn";
 import { SignedIn, UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
-import { redirect } from "next/dist/server/api-utils";
+import { redirect } from "next/navigation";
 import Image from "next/image";
 
 const Home = async () => {
